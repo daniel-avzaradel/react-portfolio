@@ -7,6 +7,7 @@
   padding: 10px 40px;
   max-width: 1024px;
   margin: 0 auto;
+  position: sticky;
 }
 
 .header__div1,

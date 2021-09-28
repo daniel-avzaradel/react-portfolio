@@ -12,13 +12,13 @@ function Header() {
       </div>
       <div className={styles.header__div2}>
         <li className={styles.header__li}>
-          <Link href="/projects">Projects</Link>
+          <Link href="#projects">Projects</Link>
         </li>
         <li className={styles.header__li}>
-          <Link href="/tech">Technologies</Link>
+          <Link href="#tech">Technologies</Link>
         </li>
         <li className={styles.header__li}>
-          <Link href="/about">About</Link>
+          <Link href="#about">About</Link>
         </li>
       </div>
       <div className={styles.header__div3}>

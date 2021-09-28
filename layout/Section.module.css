@@ -16,4 +16,5 @@
 
 .section__flex {
   display: flex;
+  flex-direction: column;
 }

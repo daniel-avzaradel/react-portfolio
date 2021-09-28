@@ -12,9 +12,9 @@ export default function Home() {
         <Hero />
         <BgAnimation />
       </SectionGrid>
-      <SectionGrid>
+      <SectionFlex>
         <Projects />
-      </SectionGrid>
+      </SectionFlex>
     </Layout>
   );
 }

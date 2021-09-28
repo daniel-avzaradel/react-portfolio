@@ -2,3 +2,9 @@
   max-width: 1024px;
   padding: 0 40px;
 }
+
+.projects__projectsGrid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
