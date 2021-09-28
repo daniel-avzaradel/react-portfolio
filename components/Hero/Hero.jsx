@@ -6,12 +6,14 @@ function Hero() {
     <div className={styles.hero__container}>
       <h1 className={styles.hero__sectionTitle}>
         Hi! I'm <span className={styles.hero__daniel}>Daniel</span>. <br />
-        JavaScript Full Stack Developer
+        <span className={styles.hero__developer}>
+          JavaScript Full Stack Developer
+        </span>
       </h1>
       <p className={styles.hero__sectionText}>
-        This website was created with the help of JAVASCRIPTMASTERY to showcase
-        react projects, expand my development skills as an aspiring developer
-        and create opportunities to land an entry-level job.
+        This website was created to showcase react projects, expand my
+        development skills as an aspiring developer and create opportunities to
+        land an entry-level job.
       </p>
       <br />
       <button className={styles.hero__learnMore}>Learn More</button>

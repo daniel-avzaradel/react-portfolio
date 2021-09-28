@@ -1,5 +1,5 @@
 .hero__container {
-  width: 150%;
+  width: 160%;
   padding: 0 40px;
   overflow: hidden;
 }
@@ -29,6 +29,10 @@
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
+
+.hero__developer {
+  font-size: 46px;
 }
 
 .hero__sectionText {
