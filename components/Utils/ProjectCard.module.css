@@ -1,6 +1,6 @@
 .projectCard {
   background: white;
-  width: 440px;
+  width: 400px;
   height: auto;
   border-radius: 4px;
   margin-right: 20px;
@@ -35,7 +35,8 @@
 .projectCard__divider {
   width: 64px;
   height: 10px;
-  background-color: indianred;
+  background: linear-gradient(270deg, #13adc7 0%, #945dd6 100%);
+
   border-radius: 10px;
   margin: auto;
 }

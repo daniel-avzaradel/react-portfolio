@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import styles from "../Hero/Hero.module.css";
 
 function Hero() {
@@ -13,10 +14,12 @@ function Hero() {
       <p className={styles.hero__sectionText}>
         This website was created to showcase react projects, expand my
         development skills as an aspiring developer and create opportunities to
-        land an entry-level job.
+        job oportunities and network.
       </p>
       <br />
-      <button className={styles.hero__learnMore}>Learn More</button>
+      <button className={styles.hero__learnMore} type="button">
+        <Link href="#about">Learn More</Link>
+      </button>
     </div>
   );
 }
