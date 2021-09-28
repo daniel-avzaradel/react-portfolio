@@ -1,0 +1,19 @@
+.section__grid,
+.section__flex {
+  display: grid;
+  margin: 0 auto;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1024px;
+  margin-top: 40px;
+}
+
+.section__grid {
+  display: grid;
+}
+
+.section__flex {
+  display: flex;
+}
