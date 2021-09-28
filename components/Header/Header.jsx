@@ -28,12 +28,12 @@ function Header() {
           </Link>
         </li>
         <li className={styles.header__li}>
-          <Link href="/https://www.linkedin.com/in/daniel-avzaradel/">
+          <Link href="https://www.linkedin.com/in/daniel-avzaradel">
             <FaLinkedin size="2rem" className={styles.header__socialIcons} />
           </Link>
         </li>
         <li className={styles.header__li}>
-          <Link href="/https://www.instagram.com/daniel.avzaradel/">
+          <Link href="https://www.instagram.com/daniel.avzaradel">
             <FaInstagram size="2rem" className={styles.header__socialIcons} />
           </Link>
         </li>

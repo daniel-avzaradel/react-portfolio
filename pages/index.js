@@ -1,6 +1,7 @@
 import Layout from "../layout/Layout";
 import Hero from "../components/Hero/Hero";
 import Projects from "../components/Projects/Projects";
+import Technologies from "../components/Technologies/Technologies";
 import BgAnimation from "../components/BackgrooundAnimation/BackgroundAnimation";
 import SectionGrid from "../layout/SectionGrid";
 import SectionFlex from "../layout/SectionFlex";
@@ -14,6 +15,9 @@ export default function Home() {
       </SectionGrid>
       <SectionFlex>
         <Projects />
+      </SectionFlex>
+      <SectionFlex>
+        <Technologies />
       </SectionFlex>
     </Layout>
   );

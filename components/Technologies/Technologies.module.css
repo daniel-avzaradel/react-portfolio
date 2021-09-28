@@ -1,0 +1,14 @@
+.technologies__container {
+  max-width: 1024px;
+  padding: 0 40px;
+}
+
+.technologies__stack {
+  display: flex;
+  flex-direction: row;
+  justify-items: space-between;
+}
+
+.technologies__stackDiv {
+  margin: 0 40px;
+}
