@@ -13,6 +13,8 @@ function Hero() {
         react projects, expand my development skills as an aspiring developer
         and create opportunities to land an entry-level job.
       </p>
+      <br />
+      <button className={styles.hero__learnMore}>Learn More</button>
     </div>
   );
 }

@@ -35,3 +35,24 @@
   font-size: 1.4rem;
   color: #d2d2d2;
 }
+
+.hero__learnMore {
+  padding: 16px 28px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: linear-gradient(
+    140deg,
+    rgba(158, 96, 203, 1) 25%,
+    rgb(26, 125, 150) 100%
+  );
+  opacity: 0.8;
+  font-size: 1.4rem;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  color: white;
+}
+
+.hero__learnMore:hover {
+  opacity: 1;
+}
