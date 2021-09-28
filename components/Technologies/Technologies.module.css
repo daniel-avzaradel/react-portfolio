@@ -12,3 +12,7 @@
 .technologies__stackDiv {
   margin: 0 40px;
 }
+
+.technologies__stackDiv svg {
+  color: cyan;
+}

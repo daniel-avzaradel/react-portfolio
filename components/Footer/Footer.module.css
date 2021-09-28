@@ -1,0 +1,16 @@
+.footer__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.footer__hr {
+  height: 10px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}

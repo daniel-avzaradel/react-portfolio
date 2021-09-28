@@ -11,6 +11,8 @@ body {
   --accent1: hsl(34.9, 98.6%, 72.9%);
   --button: hsl(205.1, 100%, 36.1%);
   --background2: hsl(232.7, 27.3%, 23.7%);
+  --background3: #638ada;
+
   scroll-behavior: smooth;
 }
 
@@ -25,6 +27,7 @@ h1 {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin: 10px 0 40px 0;
 }
 
 a {

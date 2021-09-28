@@ -3,7 +3,6 @@ import styles from "../Technologies/Technologies.module.css";
 import SectionDivider from "../Utils/SectionDivider";
 
 import { FaReact, FaDatabase } from "react-icons/fa";
-import { IconContext } from "react-icons";
 
 function Technologies() {
   return (
@@ -12,9 +11,7 @@ function Technologies() {
       <h1>Technologies</h1>
       <div className={styles.technologies__stack}>
         <div className={styles.technologies__stackDiv}>
-          <IconContext.Provider value={{ color: "cyan" }}>
-            <FaReact size="36px" />
-          </IconContext.Provider>
+          <FaReact size="36px" />
           <h3>Front-End</h3>
           <p>
             front-end developement skills such as HTML, CSS3, JS, React.JS,
@@ -22,9 +19,7 @@ function Technologies() {
           </p>
         </div>
         <div className={styles.technologies__stackDiv}>
-          <IconContext.Provider value={{ color: "cyan" }}>
-            <FaDatabase size="36px" />
-          </IconContext.Provider>
+          <FaDatabase size="36px" />
           <h3>Back-End</h3>
           <p>
             front-end developement skills such as HTML, CSS3, JS, React.JS,
@@ -32,9 +27,7 @@ function Technologies() {
           </p>
         </div>
         <div className={styles.technologies__stackDiv}>
-          <IconContext.Provider value={{ color: "cyan" }}>
-            <FaReact size="36px" />
-          </IconContext.Provider>
+          <FaReact size="36px" />
           <h3>UX / UI</h3>
           <p>
             front-end developement skills such as HTML, CSS3, JS, React.JS,
@@ -42,6 +35,7 @@ function Technologies() {
           </p>
         </div>
       </div>
+      <br />
     </div>
   );
 }
