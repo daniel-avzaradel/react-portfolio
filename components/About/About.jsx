@@ -2,17 +2,22 @@ import React from "react";
 import styles from "../About/About.module.css";
 import SectionDivider from "../Utils/SectionDivider";
 
+import Image from "next/image";
+
 function About() {
   return (
     <div className={styles.about__container} id="about">
       <SectionDivider />
       <h1>About Me</h1>
       <div className={styles.about__div}>
-        <img
-          src="https://avatars.githubusercontent.com/u/72406621?s=400&u=cdb8fcf76e4fab459062c8abac0abcd2852b66c2&v=4"
-          alt=""
-          className={styles.about__img}
-        />
+        <div className={styles.about__imgDiv}>
+          <Image
+            src={"/../public/images/daniel.jpg"}
+            width="1800px"
+            height="1800px"
+            className={styles.about__img}
+          />
+        </div>
         <div className={styles.about__content}>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
           molestias odio corporis, quidem at ut culpa, doloremque quo quam

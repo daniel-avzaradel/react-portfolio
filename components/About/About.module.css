@@ -12,10 +12,11 @@
   padding: 20px;
 }
 
-.about__img {
-  width: 220px;
-  height: 220px;
+.about__imgDiv {
   border-radius: 50%;
-  background: #333;
-  margin-right: 40px;
+  margin: 0 20px;
+}
+
+.about__img {
+  border-radius: 50%;
 }
