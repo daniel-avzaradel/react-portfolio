@@ -8,34 +8,50 @@ function Header() {
   return (
     <div className={styles.header__container}>
       <div className={styles.header__div1}>
-        <Link href="/">Daniel Avzaradel</Link>
+        <Link href="/" passHref>
+          Daniel Avzaradel
+        </Link>
       </div>
       <div className={styles.header__div2}>
         <li className={styles.header__li}>
-          <Link href="#projects">Projects</Link>
+          <Link href="#projects" passHref>
+            Projects
+          </Link>
         </li>
         <li className={styles.header__li}>
-          <Link href="#tech">Technologies</Link>
+          <Link href="#tech" passHref>
+            Technologies
+          </Link>
         </li>
         <li className={styles.header__li}>
-          <Link href="#about">About</Link>
+          <Link href="#about" passHref>
+            About
+          </Link>
+        </li>
+        <li className={styles.header__li}>
+          <Link href="#footer" passHref>
+            Contact
+          </Link>
         </li>
       </div>
       <div className={styles.header__div3}>
         <li className={styles.header__li}>
-          <Link href="https://github.com/daniel-avzaradel">
+          <a href="https://github.com/daniel-avzaradel" target="_blank">
             <FaGithub size="2rem" className={styles.header__socialIcons} />
-          </Link>
+          </a>
         </li>
         <li className={styles.header__li}>
-          <Link href="https://www.linkedin.com/in/daniel-avzaradel">
+          <a
+            href="https://www.linkedin.com/in/daniel-avzaradel"
+            target="_blank"
+          >
             <FaLinkedin size="2rem" className={styles.header__socialIcons} />
-          </Link>
+          </a>
         </li>
         <li className={styles.header__li}>
-          <Link href="https://www.instagram.com/daniel.avzaradel">
+          <a href="https://www.instagram.com/daniel.avzaradel" target="_blank">
             <FaInstagram size="2rem" className={styles.header__socialIcons} />
-          </Link>
+          </a>
         </li>
       </div>
     </div>

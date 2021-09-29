@@ -17,3 +17,20 @@
 .technologies__stackDiv svg {
   color: cyan;
 }
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .technologies__stack {
+    width: 90vw;
+    display: block;
+  }
+  .technologies__stackDiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+  }
+  .technologies__stackDiv h3 {
+    margin: 0 20px;
+    width: 160px;
+  }
+}

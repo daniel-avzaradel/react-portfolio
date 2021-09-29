@@ -1,6 +1,6 @@
 .projectCard {
   background: white;
-  width: 400px;
+  width: 30vw;
   height: auto;
   border-radius: 4px;
   margin-right: 20px;
@@ -44,4 +44,18 @@
 .projectCard__content {
   padding: 20px;
   color: #333;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .projectCard {
+    width: 40vw;
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .projectCard {
+    width: 60vw;
+    opacity: 1;
+  }
 }

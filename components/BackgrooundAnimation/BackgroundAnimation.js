@@ -1,9 +1,10 @@
 import React from "react";
+import styles from "./BgAnimation.module.css";
 
 const BackgroundAnimation = () => (
   <div>
     <svg
-      className="BgAnimation__svg"
+      className={styles.BgAnimation__svg}
       viewBox="0 0 602 602"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

@@ -37,9 +37,9 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  opacity: 0.6;
+  opacity: 0.8;
   transition: 0.2s ease;
-  margin-bottom: 15px;
+  margin-bottom: 26px;
   cursor: pointer;
 }
 
@@ -47,7 +47,6 @@
   margin-right: 10px;
   cursor: pointer;
 }
-
 .footer__contactRow:hover {
   opacity: 1;
 }
@@ -141,4 +140,16 @@
 
 .footer__form button:hover {
   background-color: rgb(55, 183, 206);
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .footer__contactRow {
+    opacity: 1;
+    margin-bottom: 36px;
+  }
+
+  .footer__contactRow {
+    opacity: 1;
+    font-size: 0.9rem;
+  }
 }

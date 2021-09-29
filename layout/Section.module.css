@@ -18,3 +18,10 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .section__flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
