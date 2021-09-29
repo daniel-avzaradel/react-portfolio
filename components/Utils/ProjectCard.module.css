@@ -46,6 +46,13 @@
   color: #333;
 }
 
+@media screen and (min-width: 1440px) and (max-width: 3060px) {
+  .projectCard {
+    width: 450px;
+    opacity: 1;
+  }
+}
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .projectCard {
     width: 40vw;
