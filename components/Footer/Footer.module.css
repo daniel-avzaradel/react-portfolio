@@ -17,7 +17,7 @@
 
 .footer__contactContainer {
   width: 100%;
-  height: 400px;
+  height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -27,7 +27,10 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0px;
+  padding: 30px;
+  background: rgb(32, 32, 32);
+  background: linear-gradient(297deg, rgb(31, 31, 31) 6%, rgb(54, 54, 54) 100%);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .footer__contactRow {
@@ -47,4 +50,95 @@
 
 .footer__contactRow:hover {
   opacity: 1;
+}
+
+.footer__contactForm {
+  background: #f2f2f2;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  color: #333;
+  font-size: 28px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgb(116, 116, 116);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__form {
+  background: #f2f2f2;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  color: #333;
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__form textarea {
+  resize: none;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.footer__form input,
+.footer__form textarea {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  width: 100%;
+  color: #333;
+  border: 1px solid var(--background1);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  outline: none;
+  box-sizing: border-box;
+  background: #f2f2f2;
+}
+
+.footer__form input:focus,
+.footer__form textarea:focus {
+  border: 1px solid rgb(55, 183, 206);
+  background: white;
+}
+
+.footer__form input::placeholder,
+.footer__form textarea::placeholder {
+  font-size: 16px;
+  color: #333;
+  opacity: 1; /* Firefox */
+}
+
+.footer__form input:-ms-input-placeholder,
+.footer__form textarea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-size: 16px;
+  color: #333;
+}
+
+.footer__form input::-ms-input-placeholder,
+.footer__form textarea::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-size: 16px;
+  color: #333;
+}
+
+.footer__form button {
+  padding: 12px 32px;
+  background-color: rgb(32, 119, 126);
+  color: white;
+  border: none;
+  outline: none;
+  margin: 20px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  border-radius: 4px;
+}
+
+.footer__form button:hover {
+  background-color: rgb(55, 183, 206);
 }
