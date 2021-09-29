@@ -12,5 +12,39 @@
 .footer__hr {
   height: 10px;
   width: 100%;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #a1a1a1;
+}
+
+.footer__contactContainer {
+  width: 100%;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer__contactInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.footer__contactRow {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  opacity: 0.6;
+  transition: 0.2s ease;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.footer__contactRow svg {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.footer__contactRow:hover {
+  opacity: 1;
 }

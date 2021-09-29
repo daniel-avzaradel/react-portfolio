@@ -13,8 +13,8 @@ function About() {
         <div className={styles.about__imgDiv}>
           <Image
             src={"/../public/images/daniel.jpg"}
-            width="1800px"
-            height="1800px"
+            width="2000"
+            height="2000"
             className={styles.about__img}
           />
         </div>
