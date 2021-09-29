@@ -3,6 +3,7 @@ import styles from "../Technologies/Technologies.module.css";
 import SectionDivider from "../Utils/SectionDivider";
 
 import { FaReact, FaDatabase } from "react-icons/fa";
+import { CgFigma } from "react-icons/cg";
 
 function Technologies() {
   return (
@@ -27,7 +28,7 @@ function Technologies() {
           </p>
         </div>
         <div className={styles.technologies__stackDiv}>
-          <FaReact size="36px" />
+          <CgFigma size="36px" />
           <h3>UX / UI</h3>
           <p>
             front-end developement skills such as HTML, CSS3, JS, React.JS,
