@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../About/About.module.css";
 import SectionDivider from "../Utils/SectionDivider";
 
-import Image from "next/image";
+// import Image from "next/image";
 
 function About() {
   return (
@@ -10,14 +10,15 @@ function About() {
       <SectionDivider />
       <h1>About Me</h1>
       <div className={styles.about__div}>
-        <div className={styles.about__imgDiv}>
+        {/* <div className={styles.about__imgDiv}>
           <Image
             src={"/../public/images/daniel.jpg"}
+            alt="Daniel Avzaradel profile"
             width="2000"
             height="2000"
             className={styles.about__img}
           />
-        </div>
+        </div> */}
         <div className={styles.about__content}>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
           molestias odio corporis, quidem at ut culpa, doloremque quo quam

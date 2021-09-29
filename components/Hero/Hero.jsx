@@ -6,7 +6,7 @@ function Hero() {
   return (
     <div className={styles.hero__container}>
       <h1 className={styles.hero__sectionTitle}>
-        Hi! I'm <span className={styles.hero__daniel}>Daniel</span>. <br />
+        Hi! I am <span className={styles.hero__daniel}>Daniel</span>. <br />
         <span className={styles.hero__developer}>
           JavaScript Full Stack Developer
         </span>
