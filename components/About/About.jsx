@@ -32,7 +32,7 @@ function About() {
           <a
             href="https://danielavzaradel.wixsite.com/composer"
             target="_blank"
-            noreferrer="true"
+            rel="noreferrer"
             style={{ color: "cyan" }}
           >
             danielavzaradel.wixsite.com/composer
@@ -55,7 +55,7 @@ function About() {
           <a
             href="https://appdrag.com/"
             target="_blank"
-            noreferrer="true"
+            rel="noreferrer"
             style={{ color: "cyan" }}
           >
             AppDrag - A cloud development platform

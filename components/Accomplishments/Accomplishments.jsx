@@ -19,6 +19,7 @@ function Accomplishments() {
               src={DIdiploma}
               layout="intrinsic"
               className={styles.accomplishments__imgTag}
+              alt="Developers Institute JavaScript Full Stack Development Bootcamp Certificate"
             ></Image>
           </div>
           <p>Developers Institute graduate - April, 2021 - July, 2021</p>
@@ -30,6 +31,7 @@ function Accomplishments() {
               src={FCCdiploma}
               layout="intrinsic"
               className={styles.accomplishments__imgTag}
+              alt="freecodecamp.org responsive web design certificate"
             ></Image>
           </div>
           <p>FreeCodeCamp.org Certified Responsive Web Designer - Sep, 2020</p>
