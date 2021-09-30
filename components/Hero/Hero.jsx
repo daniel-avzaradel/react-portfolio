@@ -18,7 +18,7 @@ function Hero() {
       </p>
       <br />
       <button className={styles.hero__learnMore} type="button">
-        <Link href="#about">Learn More</Link>
+        <Link href="#footer">Get in touch</Link>
       </button>
     </div>
   );

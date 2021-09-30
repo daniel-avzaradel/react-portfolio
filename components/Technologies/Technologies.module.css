@@ -4,14 +4,14 @@
 }
 
 .technologies__stack {
-  display: flex;
-  flex-direction: row;
+  display: grid;
   justify-items: space-between;
-  align-items: center;
+  align-items: flex-start;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .technologies__stackDiv {
-  margin-right: 60px;
+  margin-right: 40px;
 }
 
 .technologies__stackDiv svg {
@@ -25,12 +25,16 @@
   }
   .technologies__stackDiv {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: flex-start;
-    margin: 0 auto;
+    margin: 40px auto;
   }
   .technologies__stackDiv h3 {
-    margin: 0 20px;
+    margin: 10px 0;
     width: 160px;
+  }
+  .technologies__stackDiv p {
+    margin: 0px 0;
   }
 }

@@ -6,13 +6,18 @@ import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function Header() {
   return (
-    <div className={styles.header__container}>
+    <div className={styles.header__container} id="header">
       <div className={styles.header__div1}>
-        <Link href="/" passHref>
+        <Link href="#header" passHref>
           Daniel Avzaradel
         </Link>
       </div>
       <div className={styles.header__div2}>
+        <li className={styles.header__li}>
+          <Link href="#about" passHref>
+            About
+          </Link>
+        </li>
         <li className={styles.header__li}>
           <Link href="#projects" passHref>
             Projects
@@ -21,11 +26,6 @@ function Header() {
         <li className={styles.header__li}>
           <Link href="#tech" passHref>
             Technologies
-          </Link>
-        </li>
-        <li className={styles.header__li}>
-          <Link href="#about" passHref>
-            About
           </Link>
         </li>
         <li className={styles.header__li}>

@@ -144,6 +144,10 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
+  .footer__contactContainer {
+    display: flex;
+    flex-direction: column;
+  }
   .footer__contactRow {
     opacity: 1;
     margin-bottom: 36px;

@@ -8,11 +8,16 @@ function FooterNav() {
   return (
     <div className={styles.footerNav__container}>
       <div className={styles.footerNav__div1}>
-        <Link href="/" passHref>
+        <Link href="#header" passHref>
           Daniel Avzaradel
         </Link>
       </div>
       <div className={styles.footerNav__div2}>
+        <li className={styles.footerNav__li}>
+          <Link href="#about" passHref>
+            About
+          </Link>
+        </li>
         <li className={styles.footerNav__li}>
           <Link href="#projects" passHref>
             Projects
@@ -21,11 +26,6 @@ function FooterNav() {
         <li className={styles.footerNav__li}>
           <Link href="#tech" passHref>
             Technologies
-          </Link>
-        </li>
-        <li className={styles.footerNav__li}>
-          <Link href="#about" passHref>
-            About
           </Link>
         </li>
         <li className={styles.footerNav__li}>

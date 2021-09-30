@@ -20,18 +20,46 @@ function About() {
           />
         </div> */}
         <div className={styles.about__content}>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
-          molestias odio corporis, quidem at ut culpa, doloremque quo quam
-          facere fugiat! Voluptatem necessitatibus non tenetur, illo provident
-          quos nisi quis est quas adipisci officia, eaque aliquam iste
-          aspernatur itaque accusamus unde at, nihil obcaecati quae perferendis.
-          Blanditiis ipsam nesciunt quos omnis voluptatum voluptas. Ut,
-          repellendus impedit, quo quia nostrum eaque, iste accusantium
-          exercitationem officia fugit esse dignissimos ducimus est soluta odio
-          quis vel saepe architecto itaque! Voluptatum voluptas aliquam esse
-          illum deserunt maxime quaerat, quia aliquid, eveniet omnis laborum
-          accusamus hic nisi iste numquam nam dolorem! Numquam explicabo
-          pariatur quibusdam?
+          I am a former classical musician, pianist, composer, music producer.
+          Born in Rio de Janeiro, Brazil, moved to Israel at the age of 25 in
+          October 2013. In Israel started working at Wix.com as a part-time job
+          as a Customer Support Specialist - Portuguese while also studying for
+          a B.A. in Music Composition at the University of Haifa. Also studied
+          Music Production for a period of two and a half years at BPM College -
+          Tel Aviv from December 2018 till March 2021, focused on writing
+          orchestral music for media (Films, TV, Video-games). You can see more
+          here{" "}
+          <a
+            href="https://danielavzaradel.wixsite.com/composer"
+            target="_blank"
+            noreferrer="true"
+            style={{ color: "cyan" }}
+          >
+            danielavzaradel.wixsite.com/composer
+          </a>
+          <br />
+          <br />
+          During the high of the pandemic, in September 2020, with the help of
+          an automation test software engineer and friend, started studying
+          coding on spare time, completing the 300 hours program for Responsive
+          Web Design at FreeCodeCamp.org. Pushed through the coding career by
+          starting the JavaScript, Algoithms and Data Structure program from the
+          same website and later on, in April 2021, being approved for the
+          selected program JavaScript Full Stack Development from Developers
+          Institute, Tel Aviv, graduating in July 2021 being the top of his
+          class.
+          <br />
+          <br />
+          Currently finishing a two-month internship as a React Front-End
+          Developer at{" "}
+          <a
+            href="https://appdrag.com/"
+            target="_blank"
+            noreferrer="true"
+            style={{ color: "cyan" }}
+          >
+            AppDrag - A cloud development platform
+          </a>{" "}
         </div>
       </div>
     </div>
