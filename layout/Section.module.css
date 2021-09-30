@@ -19,9 +19,12 @@
   flex-direction: column;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .section__flex {
     display: flex;
     flex-direction: column;
+  }
+  .section__grid {
+    display: grid;
   }
 }

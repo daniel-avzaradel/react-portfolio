@@ -55,14 +55,21 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .projectCard {
-    width: 40vw;
+    width: 400px;
     opacity: 1;
   }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .projectCard {
-    width: 60vw;
+    width: 400px;
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .projectCard {
+    width: 90vw;
     opacity: 1;
   }
 }

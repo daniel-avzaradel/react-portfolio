@@ -36,7 +36,7 @@
 }
 
 .hero__developer {
-  font-size: 46px;
+  font-size: 2.6rem;
 }
 
 .hero__sectionText {
@@ -68,5 +68,19 @@
 @media screen and (min-width: 426px) and (max-width: 1024px) {
   .hero__container {
     width: 100vw;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 550px) {
+  .hero__container {
+    padding: 0 20px;
+  }
+  .hero__sectionTitle,
+  .hero__developer {
+    font-size: 2.2rem;
+  }
+
+  .hero__sectionText {
+    font-size: 1.1rem;
   }
 }

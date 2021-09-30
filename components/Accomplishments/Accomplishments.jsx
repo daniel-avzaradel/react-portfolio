@@ -34,17 +34,6 @@ function Accomplishments() {
           </div>
           <p>FreeCodeCamp.org Certified Responsive Web Designer - Sep, 2020</p>
         </div>
-
-        <div className={styles.cardContainer}>
-          <div className={styles.imgDiv}>
-            <Image
-              src={DIdiploma}
-              layout="intrinsic"
-              className={styles.accomplishments__imgTag}
-            ></Image>
-          </div>
-          <p>Developers Institute graduate - April, 2021 - July, 2021</p>
-        </div>
       </div>
       <br />
     </div>
