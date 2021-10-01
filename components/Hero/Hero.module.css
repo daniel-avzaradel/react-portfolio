@@ -74,10 +74,11 @@
 @media screen and (min-width: 320px) and (max-width: 550px) {
   .hero__container {
     padding: 0 20px;
+    width: 100vw;
   }
   .hero__sectionTitle,
   .hero__developer {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   .hero__sectionText {
