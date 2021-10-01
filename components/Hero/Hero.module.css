@@ -68,6 +68,7 @@
 @media screen and (min-width: 426px) and (max-width: 1024px) {
   .hero__container {
     width: 100vw;
+    padding: 40px;
   }
 }
 
@@ -75,6 +76,11 @@
   .hero__container {
     padding: 0 20px;
     width: 100vw;
+    line-height: 22px;
+    margin-bottom: 40px;
+  }
+  .hero__container h1 {
+    line-height: 40px;
   }
   .hero__sectionTitle,
   .hero__developer {

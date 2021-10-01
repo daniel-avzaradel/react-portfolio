@@ -7,7 +7,7 @@
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
   max-width: 1024px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .section__grid {
