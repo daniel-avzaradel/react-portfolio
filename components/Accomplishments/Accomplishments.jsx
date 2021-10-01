@@ -34,7 +34,7 @@ function Accomplishments() {
               alt="freecodecamp.org responsive web design certificate"
             ></Image>
           </div>
-          <p>FreeCodeCamp.org Certified Responsive Web Designer - Sep, 2020</p>
+          <p>FreeCodeCamp.org Certified Responsive Web Designer - Oct, 2020</p>
         </div>
       </div>
       <br />
