@@ -4,6 +4,10 @@
   margin-bottom: 40px;
 }
 
+.about__content {
+  line-height: 1.6em;
+}
+
 .about__div {
   display: flex;
   flex-direction: row;

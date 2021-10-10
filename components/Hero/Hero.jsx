@@ -13,8 +13,8 @@ function Hero() {
       </h1>
       <p className={styles.hero__sectionText}>
         This website was created to showcase react projects, expand my
-        development skills as an aspiring developer and create opportunities to
-        job oportunities and network.
+        development skills as an aspiring full stack developer and to create job
+        oportunities and networking.
       </p>
       <br />
       <button className={styles.hero__learnMore} type="button">

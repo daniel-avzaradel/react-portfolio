@@ -20,15 +20,15 @@ function About() {
           />
         </div> */}
         <div className={styles.about__content}>
-          I am a former classical musician, pianist, composer, music producer.
-          Born in Rio de Janeiro, Brazil, moved to Israel at the age of 25 in
-          October 2013. In Israel started working at Wix.com as a part-time job
-          as a Customer Support Specialist - Portuguese while also studying for
-          a B.A. in Music Composition at the University of Haifa. Also studied
-          Music Production for a period of two and a half years at BPM College -
-          Tel Aviv from December 2018 till March 2021, focused on writing
-          orchestral music for media (Films, TV, Video-games). You can see more
-          here{" "}
+          I am a former classical musician, pianist, composer and music
+          producer. Born in Rio de Janeiro, Brazil, moved to Israel at the age
+          of 25 in October 2013. In Israel started working at Wix.com in a
+          part-time job as a Customer Support Specialist - Portuguese while also
+          studying for a B.A. in Music Composition at the University of Haifa.
+          Also studied Music Production for a period of two and a half years at
+          BPM College - Tel Aviv from December 2018 till March 2021, focused on
+          writing orchestral music for media (Films, TV, Video-games). You can
+          see more here{" "}
           <a
             href="https://danielavzaradel.wixsite.com/composer"
             target="_blank"
