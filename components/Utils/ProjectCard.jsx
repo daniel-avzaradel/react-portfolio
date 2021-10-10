@@ -5,8 +5,8 @@ import Image from "next/image";
 function ProjectCard({ title, description, tags, source }) {
   return (
     <div className={styles.projectCard}>
-      <a href={source}>
-        <div className={styles.projectCard__title}>{title}</div>
+      <a href={source} target="_blank" rel="noreferrer">
+        <div className={styles.projectCard__title}>{title.toUpperCase()}</div>
         <div className={styles.projectCard__divider}></div>
         <div className={styles.projectCard__content}>{description}</div>
         <div className={styles.projectCard__tags}>
