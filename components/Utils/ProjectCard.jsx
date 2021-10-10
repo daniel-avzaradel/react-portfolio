@@ -2,20 +2,23 @@ import React from "react";
 import styles from "../Utils/ProjectCard.module.css";
 import Image from "next/image";
 
-function ProjectCard() {
+function ProjectCard({ title, description, tags, source }) {
   return (
     <div className={styles.projectCard}>
-      <div className={styles.projectCard__title}>Title</div>
-      <div className={styles.projectCard__divider}></div>
-      <br />
-      <div className={styles.projectCard__content}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-        obcaecati voluptatem, reiciendis nesciunt qui nisi ullam, accusamus
-        consequatur est ipsa incidunt sapiente? Deleniti accusamus saepe iste,
-        inventore ullam recusandae labore sit hic in voluptate perspiciatis fuga
-        quas qui officiis, repellendus facere, laborum itaque sunt modi debitis
-        voluptas.
-      </div>
+      <a href={source}>
+        <div className={styles.projectCard__title}>{title}</div>
+        <div className={styles.projectCard__divider}></div>
+        <div className={styles.projectCard__content}>{description}</div>
+        <div className={styles.projectCard__tags}>
+          {tags.map((tag, i) => {
+            return (
+              <button className={styles.projectCard__tagBtn} key={i}>
+                {tag}
+              </button>
+            );
+          })}
+        </div>
+      </a>
     </div>
   );
 }
