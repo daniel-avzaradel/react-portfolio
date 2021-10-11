@@ -29,7 +29,7 @@ function Technologies() {
         <div className={styles.technologies__stackDiv}>
           <FaDatabase size="36px" />
           <h3>Database</h3>
-          <p>Database practices with PostgreSQL and node.js</p>
+          <p>Database experience with PostgreSQL, SQL and Mongoose Database</p>
         </div>
       </div>
       <br />

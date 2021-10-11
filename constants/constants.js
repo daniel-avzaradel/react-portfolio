@@ -13,4 +13,19 @@ export const constants = [
     tags: ["JavaScript", "Node", "API", "Express"],
     source: "https://github.com/daniel-avzaradel/amazon_scraper",
   },
+  {
+    title: "dev finances",
+    description:
+      "A web application to manage personal finances, detail payments, bank statements and revenue income. Works with a mnageable table list",
+    tags: ["HTML", "CSS", "JavaScript"],
+    source:
+      "https://github.com/daniel-avzaradel/dev.finances-maratona-discover",
+  },
+  {
+    title: "portfolio website",
+    description:
+      "My first web portfolio created as an assignment while studying at Developers Institute for the JavaScript Full Stack Developer Bootcamp",
+    tags: ["HTML", "CSS", "JavaScript"],
+    source: "https://github.com/daniel-avzaradel/portfolio",
+  },
 ];
