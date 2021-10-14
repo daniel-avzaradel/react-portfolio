@@ -50,8 +50,8 @@ function About() {
           class.
           <br />
           <br />
-          Currently finishing a two-month internship as a React Front-End
-          Developer at{" "}
+          Currently finishing my role as a React Front-End Developer at AppDrag
+          - A cloud development platform and looking for my next challenge{" "}
           <a
             href="https://appdrag.com/"
             target="_blank"
